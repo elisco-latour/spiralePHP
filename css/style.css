@@ -1,0 +1,699 @@
+/*======================
+  TEMPLATE style.css file
+=======================*/
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #020202;
+    font-family: 'Roboto', 'Helvetica', 'Arial' ,sans-serif !important;
+    font-weight: 300 !important;
+    text-rendering: optimizeLegibility;
+    margin-top: 5.5rem;
+}
+
+
+/* SPIRALE COMPONENTS*/
+
+.spirale-section{
+    background-color: #fff;
+    padding: 80px 0;
+}
+
+.spirale-cards__container{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+
+.spirale-shadow--2dp{
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 
+        0 3px 1px -2px rgba(0,0,0,.2),
+        0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+.spirale-card{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 400;
+    min-height: 200px;
+    overflow: hidden;
+    width: 330px;
+    z-index: 1;
+    position: relative;
+    background: #fff;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+.spirale-card__media{
+    width: 100%;
+}
+
+.spirale-card__media img{
+    max-width: 100%;
+    height: auto;
+}
+
+.spirale-card__title{
+    padding: 25px 25px 0 25px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #000;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: stretch;
+    -webkit-justify-content: stretch;
+    -ms-flex-pack: stretch;
+    justify-content: stretch;
+    line-height: normal;
+    -webkit-perspective-origin: 165px 56px;
+    perspective-origin: 165px 56px;
+    -webkit-transform-origin: 165px 56px;
+    -ms-transform-origin: 165px 56px;
+    transform-origin: 165px 56px;
+    box-sizing: border-box;
+}
+
+
+.spirale-card__title-text{
+    font-weight: 400 !important;
+    font-size: 1.0rem;
+}
+
+
+.spirale-card__supporting-text{
+    padding: 0 25px;
+    width: calc(100% - 50px);
+    color: rgba(0,0,0,.54);
+    font-size: 13px;
+    line-height: 18px;
+}
+
+
+.spirale-card__actions{
+    font-size: 16px;
+    line-height: normal;
+    width: 100%;
+    background-color: transparent;
+    padding: 16px 25px;
+    box-sizing: border-box;
+}
+
+.spirale-card__actions a{
+    color: #9b0000;
+}
+
+.spirale-button{
+    background: 0 0;
+    border: none;
+    border-radius: 2px;
+    color: #000;
+    position: relative;
+    height: 36px;
+    min-width: 64px;
+    padding: 0 8px;
+    display: inline-block;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    overflow: hidden;
+    will-change: box-shadow,transform;
+    -webkit-transition: box-shadow .2s cubic-bezier(.4,0,1,1),background-color .2s cubic-bezier(.4,0,.2,1),color .2s cubic-bezier(.4,0,.2,1);
+    transition: background, box-shadow .2s cubic-bezier(.4,0,1,1),background-color .2s cubic-bezier(.4,0,.2,1),color .2s cubic-bezier(.4,0,.2,1);
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    line-height: 36px;
+    vertical-align: middle;
+}
+
+
+.spirale-button:hover{
+    background: #eeeeee;
+}
+
+
+.spirale-section__content {
+    max-width: 978px;
+    margin: auto;
+}
+
+.spirale-image{
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+/* SPIRALE TYPOGRAPHY */
+
+.spirale-heading{
+    font-size: 2.6rem;
+    margin: 20px 0 10px;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.spirale-subhead{
+    color: rgba(0,0,0,.54);
+    font-size: 1rem;
+    font-weight: 300 !important
+}
+
+.spirale-mini__title{
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: normal;
+}
+
+
+
+.spirale-typography--font-light{
+    font-weight: 300 !important;
+}
+
+.spirale-typography--font-regular{
+    font-weight: 400 !important;
+    font-size: 32px;
+    line-height: 1.5;
+    padding: 0;
+    color: #424242;
+}
+
+/* SPIRALE GRIDS*/
+.spirale-cols{
+    margin: 0 -1.53374233129%;
+    width: 103.067484663%;
+}
+
+.spirale-cols:after{
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.spirale-col--4{
+    width: 30.3571428571%;
+}
+
+.spirale-col--5{
+    width: 38.6904761905%;
+}
+
+.spirale-col--12{
+    width: 97.0238095238%
+}
+
+.spirale-col--9{
+    width: 72.0238095238%
+}
+.spirale-col--5,
+.spirale-col--12,
+.spirale-col--4,
+.spirale-col--9{
+    float: left;
+    margin: 0 1.4880952381% 20px;
+}
+
+/*
+   --  THE HEADER
+*/
+.spirale-header{
+    /*height: 56px;*/
+    height: 5.5rem;
+    background: #fff;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.35);
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.spirale-header__menu{
+    max-width: 61.25rem;
+    margin: 0 auto;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf:before, .cf:after {
+    content: ' ';
+    display: table;
+}
+
+
+.spirale-header__title{
+    line-height: 2.5rem;
+    margin-left: 1rem;
+    float: left;
+    font-size: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+
+.spirale-header__logo{
+    height: 5.0rem;
+    margin-top: .1875rem;
+    margin-right: .1875rem;
+}
+
+.spirale-header__main-nav{
+    height: 5.5rem;
+    float: right;
+    margin-right: 1rem;
+    clear: right;
+}
+
+.spirale-header__main-nav > ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.spirale-header__main-nav > ul > li{
+    line-height: 5.5rem;
+    height: 5.5rem;
+    vertical-align: middle;
+    margin-right: .1875rem;
+    margin-left: 1.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.spirale-header__main-nav > ul li{
+    display: inline-block;
+}
+
+.spirale-header__main-nav > ul li a{
+    text-decoration: none;
+    color: #020202;
+    /*    color: #757575;*/
+    /*font-size: .875rem;*/
+}
+
+.contact-link{
+    background: #D50000;
+    padding: 10px;
+    box-shadow: 0 2px 6px 0px rgba(0,0,0,.12), 0 1px 1px 0 rgba(0,0,0,.24);
+    color: #fff !important;
+    border-radius: 3px;
+}
+
+
+/*-------- THE PAGE CONTAINER ------- */
+
+.spirale-page_container{
+    position: relative;
+    background-color: #9b0000;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* CAROUSSEL */
+.spirale-caroussel{
+    position: relative;
+
+}
+
+.spirale-caroussel:before{
+    box-shadow: inset 0 8px 8px -5px rgba(0,0,0,.25), inset 0 -8px 8px -5px rgba(0,0,0,.25);
+    content: '';
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.spirale-caroussel .spirale-caroussel__slides{
+    display: flex;
+    align-items: center;
+    -webkit-box-align: flex;
+    min-height: 60vh;
+    position: relative;
+}
+
+.spirale-caroussel__slides-wrapper{
+    display: block;
+    height: 100%;
+    left: 0;
+    right: 0;
+    max-width: 61.25rem;
+    margin: auto;
+    color: #fff;
+}
+
+
+.spirale-slide__content{
+    margin-left: 0;
+    position: relative;
+    z-index: 2;
+}
+
+.spirale-slide__description{
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300!important;
+    font-size: 1.6rem
+}
+
+.spirale-slide__content{
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 16px;
+}
+
+
+
+.spirale-sliders__image{
+    background-image: url(../images/Sthembile-Shabangu-samsung-afrique.jpg);
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    background-size: cover;
+    margin-top: 0;
+}
+
+.spirale-button-down{
+    position: absolute;
+    right: calc(50% - 66px);
+    bottom: -28px;
+    z-index: 2;
+}
+
+.spirale-button-fab{
+    border-radius: 50%;
+    font-size: 24px;
+    height: 56px;
+    margin: auto;
+    min-width: 56px;
+    width: 56px;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    line-height: normal;
+    background-color: #D50000;
+    margin: 0;
+    border: none;
+    color: #fff;
+
+    box-shadow: 0 2px 4px 4px rgba(0,0,0,.12), 0 1px 1px 0 rgba(0,0,0,.24);
+    cursor: pointer;
+    outline: none;
+}
+
+.spirale-button-fab:active,
+.spirale-button-fab:focused{
+    outline: none;
+}
+
+
+
+/*-------------------------------
+----- SPIRALE PRESENTATION ------
+--------------------------------*/
+
+
+
+/*-------------------------------
+----- SPIRALE WHY CHOOSE ------
+--------------------------------*/
+.spirale-reasons{
+    background-image: url("../images/paper-note-ipad-76752.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.spirale-reasons h2{
+    color: #fff;
+}
+
+.spirale-reasons  p{
+    
+}
+
+.spirale-side__media{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+}
+
+.side-media__content{
+    padding: 25px;
+    
+
+}
+
+.spirale-image{
+    min-width: 20%;
+    padding: 25px;
+    border-right: 1px solid #e0e0e0;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: #9b0000
+}
+
+.spirale-side__media > .spirale-image img{
+    height: 5.0rem;
+    vertical-align: middle;
+}
+
+.feature-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 25px;
+    
+}
+
+.feature-list li{
+    list-style-type: decimal-leading-zero;
+    margin-right: 40px;
+    color: #9b0000;
+    font-size: 20px;
+}
+
+
+.feature-list li p{
+    color: #424242;
+    font-size: 13px;
+}
+
+
+.feature-list_beautiful{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    position: relative;
+    z-index: 3;
+}
+
+.feature-list_beautiful::before{
+    content: " ";
+    position: absolute;
+    width: 40px;
+    height: 100%;
+   background-color: #9b0000;
+   left: 5%;
+}
+
+/*.feature-list_beautiful::after{
+    content: " ";
+    position: absolute;
+    width: 10px;
+    height: 100%;
+   background-color: #9b0000;
+   right: 5%;
+   z-index: -2;
+}*/
+
+
+
+.feature-list_beautiful li{
+    background-color: #161518;
+    color: #fff !important;
+    position: relative;
+    box-sizing: border-box;
+    margin: 2rem 0;
+    padding: 25px;
+    font-size: 1.8rem !important;
+   list-style-type: none;
+   position: relative
+}
+
+.feature-list_beautiful li::before{
+    content: " ";
+    position: absolute;
+    width: 20px;
+    height: 100%;
+    
+}
+
+
+.feature-list_beautiful-item span{
+    display: block;
+    color: #fff;
+    
+}
+
+.feature-list_2{
+    background-color: #424242;
+}
+
+.feature-list_2 .spirale-heading{
+    color: #fff;
+    text-transform: none;
+    font-weight: 300 !important
+}
+
+.feature-list_beautiful-item p{
+    color: #f9f9f9 !important;
+    line-height: 1.1rem;
+}
+
+.shadow-style--1{
+    box-shadow: 0 2px 4px 4px rgba(0,0,0,.12), 0 1px 1px 0 rgba(0,0,0,.24);
+}
+
+/*-------------------------------
+----- TAGLINE SECTION ------
+--------------------------------*/
+.spirale-tagline_container{
+  background-color: #f6f6f6;
+}
+
+.spirale-tagline__section{
+    display: block;
+    width: 100%;
+    background-color: #f6f6f6;
+    padding-bottom: 200px;
+    padding-top: 10px;
+    
+}
+
+.spirale-tagline{
+    font-style: normal;
+    font-weight: 300 !important;
+    color: #424242;
+}
+
+.spirale-tagline h3{
+    font-size: 2.2rem;
+    line-height: 1.2;
+    margin-bottom: 0;
+    font-weight: 300 !important;
+}
+
+.spirale-tagline p{
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+
+
+
+/*-------------------------------
+----- SPIRALE FOOTER ------
+--------------------------------*/
+.spirale-footer{
+    width: 100%;
+    background-color: #161518;
+    color: #fff;
+}
+
+.spirale-footer_container{
+    width: 100%;
+    max-width: 62.375rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 2rem;
+}
+
+.spirale-footer_container::after{
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.spirale-footer__section{
+    height: 4rem;
+    line-height: 4rem;
+}
+
+.spirale-tagline > a{
+    text-decoration: none;
+}
+
+.spirale-footer__section:nth-child(1){
+    border-bottom: 1px solid #d50000;
+}
+
+.spirale-follow-us{
+     display: inline-block;
+    text-transform: uppercase;
+    font-weight: 400 !important;
+}
+
+.spirale-footer__top-social-items{
+    display: inline-block;
+}
+
+.spirale-footer__top-social-items li{
+    display: inline-block;
+    margin: 0 10px;
+   color: #fff !important;
+}
+
+.spirale-copyright{
+    text-transform: uppercase;
+    color: #a3a3a3 !important; 
+}
