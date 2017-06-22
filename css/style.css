@@ -1,6 +1,12 @@
 /*======================
   TEMPLATE style.css file
 =======================*/
+html{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
 body{
     margin: 0;
     padding: 0;
@@ -230,6 +236,10 @@ h1, h2, h3, h4, h5, h6 {
     width: 38.6904761905%;
 }
 
+.spirale-col--6{
+    width: 48.5119047619%;
+}
+
 .spirale-col--12{
     width: 97.0238095238%
 }
@@ -333,6 +343,12 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 3px;
 }
 
+
+@media screen and (max-width: 1024px){
+    .spirale-header__main-nav {
+        display: none;
+    }
+}
 
 /*-------- THE PAGE CONTAINER ------- */
 
@@ -651,11 +667,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .spirale-footer_container{
-    width: 100%;
+    width: 90%;
     max-width: 62.375rem;
     margin-left: auto;
     margin-right: auto;
-    padding: 0 2rem;
 }
 
 .spirale-footer_container::after{
@@ -695,7 +710,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .spirale-copyright{
     text-transform: uppercase;
-    color: #a3a3a3 !important; 
+    color: #a3a3a3 !important;
+    font-size: 0.7rem;
 }
 
 
@@ -704,3 +720,98 @@ h1, h2, h3, h4, h5, h6 {
 /*-------------------------------
 ----- SPIRALE PRESENTATION ------
 --------------------------------*/
+
+.spirale-contact_form-container{
+    
+}
+
+.spirale-contact_form-container,
+.spirale-contact_information{
+    display: inline-block;
+}
+
+.spirale-contact_form-section{
+    background-color: #333;
+}
+
+.spirale-contact_form{
+    width: 90%;
+    margin: auto;
+}
+
+.spirale-contact_form input,
+.spirale-contact_form  textArea{
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    max-width: 90%;
+    width: 600px;
+    background-color: #020202;
+    color: #fff !important;
+    border: 1px solid #020202 !important;
+    padding: 16px;
+    outline-color: #d50000;
+    
+    color: #020202;
+    font-family: 'Roboto', 'Helvetica', 'Arial' ,sans-serif !important;
+    font-weight: 200 !important;
+    text-rendering: optimizeLegibility;
+}
+
+.spirale-contact_form-container form textArea{
+    min-height: 12rem;
+}
+
+.spirale-contact_form label{
+   color: #fff;    
+}
+
+
+.spirale-contact_information{
+    color: #fff;
+    background-color: #9b0000;
+    text-align: right;
+
+    vertical-align: top;
+}
+
+.info-box{
+    width: 100%;
+    max-width: calc(100% - 50px);
+    padding: 25px;
+    margin: auto;
+}
+
+.spirale-contact__wrapper{
+    
+}
+
+
+@media screen and (max-width: 1024px){
+    .spirale-contact_form-section{
+        padding-top: 0;
+        padding-bottom: 40px;
+    }
+    
+    .spirale-contact_form-container, 
+    .spirale-contact_information {
+        display: block;
+        width: 100%;
+        
+    }
+
+    .spirale-contact_form  input,
+    .spirale-contact_form  textArea{
+         max-width: 62.375rem;
+        width: calc(100% - 32px);
+    }
+
+    .spirale-contact_information{
+        text-align: left;
+    }
+    
+    .spirale-contact_form{
+        margin-top: 40px;
+    }
+
+}

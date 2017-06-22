@@ -268,7 +268,7 @@
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit
                 </p>
-                <a class="contact-link" href="#">CONTACTEZ - NOUS</a>
+                <a class="contact-link" href="contact.php">CONTACTEZ - NOUS</a>
             </div>
         </div>
     </section>

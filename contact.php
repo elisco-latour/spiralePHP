@@ -12,9 +12,18 @@
         require_once 'header.php';
         ?>
         <main>
-            <section class="spirale-section">
-                <div class="spirale-contact_section">
-                    <div class="spirale-contact_form-container">
+            <section class="spirale-section spirale-contact_form-section">
+                <div class="spirale-contact__wrapper">
+
+                    <div class="spirale-contact_information spirale-col--6">
+                        <div class="info-box">
+                            <p class="spirale-address">Benin / Cotonou, AGOTIKON nouvelle pharmacie</p>
+                            <p class="spirale-phone">+299 xx xx xx xx / +229 xx xx xx xx</p>
+                            <p class="spirale-email">contact@spirale.com</p>
+                        </div>
+                    </div>
+
+                    <div class="spirale-contact_form-container spirale-col--6">
                         <form class="spirale-contact_form">
                             <label for="nom_contact">Votre nom</label>
                             <input type="text" name="nom_contact">
@@ -28,13 +37,7 @@
                             </textarea>
                         </form>
                     </div>
-                    <div class="spirale-contact_information">
-                        <div class="info-box">
-                            <p class="spirale-address"></p>
-                            <p class="spirale-phone"></p>
-                            <p class="spirale-email"></p>
-                        </div>
-                    </div>
+
                 </div>
             </section>
         </main>

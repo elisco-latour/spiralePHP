@@ -13,13 +13,13 @@
         <header class="spirale-header">
             <div class="spirale-header__menu cf">
                 <h2 class="spirale-header__title">
-                    <a href="#">
+                    <a href="index.php">
                         <img class="spirale-header__logo" alt="Logo de SPIRALE" src="images/spirale_log_16_9.jpg" />
                     </a>
                 </h2>
                 <nav class="spirale-header__main-nav" id="HeaderNav">
                     <ul>
-                        <li><a class="nav-link" href="#">Accueil</a></li>
+                        <li><a class="nav-link" href="index.php">Accueil</a></li>
                         <li><a class="nav-link" href="#spirale-presentation">A propos</a></li>
                         <li><a class="nav-link" href="#spirale-reasons">Services</a></li>
                         <li><a class="nav-link contact-link" href="#spirale-footer">Contactez - nous</a></li>
