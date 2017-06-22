@@ -32,9 +32,7 @@
                             <label for="nom_contact">Votre adresse email</label>
                             <input type="email" name="email_contact">
                             <label for="nom_contact">Votre message</label>
-                            <textarea name="email-content">
-                                
-                            </textarea>
+                            <textarea name="email-content"></textarea>
                         </form>
                     </div>
 

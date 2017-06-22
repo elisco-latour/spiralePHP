@@ -424,6 +424,7 @@ h1, h2, h3, h4, h5, h6 {
     left: 50%;
     top: 0;
     background-size: cover;
+    background-position: center center;
     margin-top: 0;
 }
 
@@ -458,6 +459,36 @@ h1, h2, h3, h4, h5, h6 {
 .spirale-button-fab:active,
 .spirale-button-fab:focused{
     outline: none;
+}
+
+@media screen and (max-width: 768px){
+    
+    .spirale-card{
+        width: 100%;
+    }
+    
+    #spirale-presentation{
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    .spirale-caroussel .spirale-caroussel__slides{
+        min-height: 50vh;
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    
+    .spirale-button-down{
+        right: 28px;
+    }
+    
+    .spirale-sliders__image{
+        display: none;
+    }
+    
+    .spirale-slides__content{
+        width: 100%;
+    }
+
 }
 
 
@@ -620,6 +651,13 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: 0 2px 4px 4px rgba(0,0,0,.12), 0 1px 1px 0 rgba(0,0,0,.24);
 }
 
+
+@media screen and (max-width: 768px){
+    .feature-list_2 h2{
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+}
 /*-------------------------------
 ----- TAGLINE SECTION ------
 --------------------------------*/
@@ -654,6 +692,13 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 40px;
 }
 
+
+@media screen and (max-width: 768px){
+    .spirale-tagline{
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+}
 
 
 
@@ -759,7 +804,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .spirale-contact_form-container form textArea{
-    min-height: 12rem;
+    min-height: 4rem;
 }
 
 .spirale-contact_form label{
