@@ -1,3 +1,11 @@
+<?php 
+    /**
+     * The header
+     * 
+     */
+
+    require_once 'header.php';
+?>
 <main class="spirale-page_container">
     <section class="spirale-caroussel">
         <div class="spirale-caroussel__slides">
@@ -265,4 +273,6 @@
         </div>
     </section>
 </main>
-
+<?php 
+require_once 'footer.php';
+?>
