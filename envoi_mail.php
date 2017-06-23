@@ -35,7 +35,7 @@ if ($nom_contact && $prenom_contact && $email_contact && $message_contact) {
 
 
 if($mail_status = TRUE){
-    echo 'Mail Transmis';
+    echo header("Location: contact.php");
 } else {
     echo "Echec de l'envoi du mail";
 }
