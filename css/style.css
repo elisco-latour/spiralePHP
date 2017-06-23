@@ -799,7 +799,6 @@ h1, h2, h3, h4, h5, h6 {
     
     color: #020202;
     font-family: 'Roboto', 'Helvetica', 'Arial' ,sans-serif !important;
-    font-weight: 200 !important;
     text-rendering: optimizeLegibility;
 }
 
@@ -827,8 +826,12 @@ h1, h2, h3, h4, h5, h6 {
     margin: auto;
 }
 
-.spirale-contact__wrapper{
-    
+.spirale-contact_form input[type="submit"]{
+    width: 30%;
+    background-color: #9b0000;
+    font-weight: 300 !important;
+    font-size: 1rem;
+    cursor: pointer;
 }
 
 
@@ -857,6 +860,10 @@ h1, h2, h3, h4, h5, h6 {
     
     .spirale-contact_form{
         margin-top: 40px;
+    }
+    
+    .spirale-contact_form input[type="submit"]{
+        width: 100%;
     }
 
 }
