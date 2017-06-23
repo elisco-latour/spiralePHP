@@ -10,12 +10,12 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
     </head>
     <body>
-        <div class="spirale-mobile__overlay is-visible">
+        <div id="spirale-mobile__overlay" class="spirale-mobile__overlay">
         </div>
         <header class="spirale-header">
             <div class="spirale-header__menu cf">
-                <div class="spirale-hamburger__container">
-                      <span class="spirale-hamburger"></span>
+                <div id="spirale-hamburger" class="spirale-hamburger__container">
+                      <a class="spirale-hamburger"></a>
                 </div>
                 <h2 class="spirale-header__title">
                     <a href="index.php">
@@ -32,7 +32,7 @@
                 </nav>
             </div>
         </header>
-        <div class="spirale-mobile__menu is-visible spirale-shadow--2dp">
+        <div id="spirale-mobile__menu" class="spirale-mobile__menu spirale-shadow--2dp">
             <div class="spirale-mobile__logo-container">
                 <h2 class="spirale-header__title">
                     <a href="index.php">
