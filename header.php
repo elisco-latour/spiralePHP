@@ -10,8 +10,13 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
     </head>
     <body>
+        <div class="spirale-mobile__overlay is-visible">
+        </div>
         <header class="spirale-header">
             <div class="spirale-header__menu cf">
+                <div class="spirale-hamburger__container">
+                      <span class="spirale-hamburger"></span>
+                </div>
                 <h2 class="spirale-header__title">
                     <a href="index.php">
                         <img class="spirale-header__logo" alt="Logo de SPIRALE" src="images/spirale_log_16_9.jpg" />
@@ -27,3 +32,21 @@
                 </nav>
             </div>
         </header>
+        <div class="spirale-mobile__menu is-visible spirale-shadow--2dp">
+            <div class="spirale-mobile__logo-container">
+                <h2 class="spirale-header__title">
+                    <a href="index.php">
+                        <img class="spirale-header__logo" alt="Logo de SPIRALE" src="images/spirale_log_16_9.jpg" />
+                    </a>
+                </h2>
+            </div>
+            <nav class="spirale-mobile__navigation">
+                <ul>
+                    <li class="spirale-active__menu-item"><a class="nav-link" href="index.php">Accueil</a></li>
+                    <li><a class="nav-link" href="#spirale-presentation">A propos</a></li>
+                    <li><a class="nav-link" href="#spirale-reasons">Services</a></li>
+                    <li><a class="nav-link" href="#spirale-footer">Contactez - nous</a></li>
+                </ul>
+            </nav>
+        </div>
+        
